@@ -8,12 +8,24 @@ h1 {
 .header {
     background-color: #f7f2b4;
     height: 50px; 
+    
 }
 
 .header-top {
-
+    float:left;
+    font-size: 20px;
 }
 
 .header-list li{
     list-style: none;
+    float: left;
+}
+
+.main {
+    height:600px;
+}
+
+.footer {
+    background-color:darkorchid;
+    height:200px;
 }
