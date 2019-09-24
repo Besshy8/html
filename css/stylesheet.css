@@ -1,9 +1,19 @@
+
 h1 {
-    color: blueviolet;
+    color: blue;
+    font-size: 60px;
+    font-family: serif;
 }
 
-p {
-    color: blue;
-    font-size: 70px;
-    font-family: serif;
+.header {
+    background-color: #f7f2b4;
+    height: 50px; 
+}
+
+.header-top {
+
+}
+
+.header-list li{
+    list-style: none;
 }
