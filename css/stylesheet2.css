@@ -1,13 +1,34 @@
-header {
+.header {
+    background-color: aqua;
+    
+}
+
+.header-top {
     color: blue;
     font-size: 60px;
     font-family: serif;
-    background-color: aqua;
+    
 }
 
-li {
+.main {
+    height: 500px;
+}
+
+.main li {
     list-style: none;
     float: left;
-    margin:10px 80px 10px 80px;
+    margin:10px 90px 10px 90px;
     font-size: 30px;
 }
+
+.footer {
+    height: 100px;
+    background-color:yellow; 
+}
+
+.footer li {
+    list-style: none;
+    float: left;
+    margin: 10px 20px 10px 20px;
+}
+
