@@ -1,9 +1,13 @@
 header {
     color: blue;
     font-size: 60px;
+    font-family: serif;
+    background-color: aqua;
 }
 
-body {
-    background-color: aqua;
-    font-family: serif;
+li {
+    list-style: none;
+    float: left;
+    margin:10px 80px 10px 80px;
+    font-size: 30px;
 }
