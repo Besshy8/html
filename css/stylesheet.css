@@ -21,20 +21,20 @@
 
 
 .main {
-    height:700px;
-    background-image: url(../img/raspimouse.jpg);
+    height:800px;
+    background-image: url(../img/raspimouse2.jpg);
     background-size: cover;
 }
 
 
 h1 {
     /*width: 1170px;*/
-    padding: 200px 200px 10px 300px;
+    padding: 150px 200px 10px 200px;
     margin: 0 auto;
     color:aqua;
-    font-size: 100px;
+    font-size: 120px;
     font-family: serif;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 
