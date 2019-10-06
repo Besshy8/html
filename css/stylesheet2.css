@@ -1,17 +1,25 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
 .header {
     background-color: aqua;
-    
+    margin:10px 10px 0px 10px;
 }
 
 .header-top {
     color: blue;
-    font-size: 60px;
+    font-size: 50px;
     font-family: serif;
     
 }
 
 .main {
     height: 500px;
+    background-color: floralwhite;
+    background-size: cover;
+    margin:0px 0px 0px 0px;
 }
 
 .main li {
@@ -20,6 +28,103 @@
     margin:10px 90px 10px 90px;
     font-size: 30px;
 }
+
+table {
+    border-collapse: collapse;
+
+}
+
+.sensor {
+    padding: 10px 30px 10px 20px;
+    font-size: 15px;
+    background-color: antiquewhite;
+    
+}
+
+.value-title{
+    padding:10px 50px 10px 50px;
+    font-size: 15px;
+    background-color: lemonchiffon;
+    
+}
+
+.right-side {
+    background-color: lemonchiffon;
+}
+
+.right-front{
+    background-color: antiquewhite;
+}
+
+.left-front{
+    background-color: lemonchiffon;
+}
+
+.left-side{
+    background-color: antiquewhite;
+}
+
+.sum-all{
+    background-color: lemonchiffon;
+}
+
+.sum-front{
+    background-color: antiquewhite;
+}
+
+
+.value-right-side{
+    background-color: antiquewhite;
+}
+
+.value-right-front{
+    background-color: lemonchiffon;
+}
+
+.value-left-front{
+    background-color: antiquewhite;
+}
+
+.value-left-side{
+    background-color: lemonchiffon;
+}
+
+.value-sum-all{
+    background-color: antiquewhite;
+}
+
+.value-sum-front{
+    background-color: lemonchiffon;
+}
+
+.value {
+    padding:10px 30px 10px 30px;
+}
+
+.btn-top-radius {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 8px 10px 5px 10px;
+    margin: 40px 70px 50px 75px;
+    text-decoration: none;
+    color: #FFA000;
+    background: #fff1da;
+    border-bottom: solid 4px #FFA000;
+    border-radius: 15px 15px 0 0;
+    transition: .4s;
+}
+
+.btn-top-radius:hover {
+    background: #ffc25c;
+    color: #FFF;
+}
+
+td {
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
 
 .footer {
     height: 100px;
