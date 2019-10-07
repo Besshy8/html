@@ -175,17 +175,61 @@ td {
     margin: 10px 80px 40px 80px;
 }
 
+.btn-circle-stitch {
+    display: inline-block;
+    text-decoration: none;
+    background: #87befd;
+    color: #FFF;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 5px #87befd;
+    border: dashed 1px #FFF;
+    transition: .4s;
+    font-size: 10px;
+}
+
+.up-btn {
+    padding:15px 10px 19px 29px;
+}
+
+.down-btn {
+    padding:20px 0px 10px 27px;
+}
+
+
+.left-btn {
+    padding: 0px 15px 0px 30px;
+}
+
+.right-btn {
+    padding: 0px 0px 0px 30px;
+}
+
+.center-btn {
+    padding: 10px 7px 0px 21px;
+}
+
+.btn-circle-stitch:hover {
+    background: #668ad8;
+    box-shadow: 0px 0px 0px 5px #668ad8;
+}
+
 .circle_spread_btn {
 	display: inline-block;
 	position: relative;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	line-height: 50px;
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
 	background: #ff8b5f;
-	border-radius: 50%;
+    border-radius: 50%;
+    margin :10px 5px 10px 0px;
 }
 .circle_spread_btn:hover {
 	cursor: pointer;
@@ -199,8 +243,8 @@ td {
 .circle_spread_btn::after {
     display: inline-block;
     content: "";
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     position: absolute;
 	border-radius: 50%;
 	color:#fff;
