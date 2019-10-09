@@ -30,21 +30,112 @@ body {
     left: 0;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 100;
-    /* display: none;を追加してください */
     display: none;
 }
 
 .modal {
     position: absolute;
-    top: 20%;
-    left: 34%;
+    top: 10%;
+    left: 25%;
     background-color: #e6ecf0;
     padding: 20px 0 40px;
     border-radius: 10px;
-    width: 450px;
-    height: auto;
+    width: 500px;
+    height: 600px;
     text-align: center;
+    padding:0px 0px 0px 120px;
 }
+
+.sensor-title{
+    margin :0px 100px 0px 30px;
+}
+
+#login-form {
+    margin :0px 60px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+
+
+
+.sensor-modal {
+    padding: 20px 70px 20px 20px;
+    font-size: 15px;
+    background-color: antiquewhite;
+    
+}
+
+.value-title-modal{
+    padding:20px 90px 20px 20px;
+    font-size: 15px;
+    background-color: lemonchiffon;
+    
+}
+
+.right-side-modal {
+    background-color: lemonchiffon;
+    padding:20px 90px 20px 20px;
+}
+
+.right-front-modal{
+    background-color: antiquewhite;
+    padding:20px 90px 20px 20px;
+}
+
+.left-front-modal{
+    background-color: lemonchiffon;
+    padding:20px 90px 20px 20px;
+}
+
+.left-side-modal{
+    background-color: antiquewhite;
+    padding:20px 90px 20px 20px;
+}
+
+.sum-all-modal{
+    background-color: lemonchiffon;
+    padding:20px 90px 20px 20px;
+}
+
+.sum-front-modal{
+    background-color: antiquewhite;
+    padding:20px 90px 20px 20px;
+}
+
+
+.value-right-side-modal{
+    background-color: antiquewhite;
+    padding:20px 70px 20px 20px;
+}
+
+.value-right-front-modal{
+    background-color: lemonchiffon;
+    padding:20px 70px 20px 20px;
+}
+
+.value-left-front-modal{
+    background-color: antiquewhite;
+    padding:20px 70px 20px 20px;
+}
+
+.value-left-side-modal{
+    background-color: lemonchiffon;
+    padding:20px 70px 20px 20px;
+}
+
+.value-sum-all-modal{
+    background-color: antiquewhite;
+    padding:20px 70px 20px 20px;
+}
+
+.value-sum-front-modal{
+    background-color: lemonchiffon;
+    padding:20px 70px 20px 20px;
+}
+
+
+
+
 
 .fa-times {
     position: absolute;
