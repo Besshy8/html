@@ -21,11 +21,36 @@
     <div class="login-modal-wrapper" id="login-modal">
         <div class="modal">
             <div id="login-form">
-                <h2>Emailログイン</h2>
+                <h2 class="sensor-title">Sensor values</h2>
                 <form action="#">
-                <input class="form-control" type="text" placeholder="メールアドレス">
-                <input class="form-control" type="password" placeholder="パスワード">
-                <div id="submit-btn">ログイン</div>
+                <!--<input class="form-control" type="text" placeholder="メールアドレス"> -->
+                <!--<input class="form-control" type="password" placeholder="パスワード"> -->
+                <table>
+                <tbody class="modal-table">
+                    <tr>
+                        <th class="sensor-modal">sensor-label</th><th class="value-title-modal">value</th>
+                    </tr>
+                    <tr>
+                        <td class="right-side-modal">right-side</td><td class="value-right-side-modal">1.0000</td>
+                    </tr>
+                    <tr>
+                        <td class="right-front-modal">right-front</td><td class="value-right-front-modal"></td>
+                    </tr>
+                    <tr>
+                        <td class="left-front-modal">left-front</td><td class="value-left-front-modal"></td>
+                    </tr>
+                    <tr>
+                        <td class="left-side-modal">left-size</td><td class="value-left-side-modal"></td>
+                    </tr>
+                    <tr>
+                        <td class="sum-all-modal">sum-all</td><td class="value-sum-all-modal"></td>
+                    </tr>
+                    <tr>
+                        <td class="sum-front-modal">sum-front</td><td class="value-sum-front-modal"></td>
+                    </tr>
+                </tbody>
+                </table>
+                <div id="submit-btn">戻る</div>
                 </form>
             </div>
         </div>
