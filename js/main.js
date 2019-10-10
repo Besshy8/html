@@ -5,5 +5,5 @@ $(function(){
 
     $("#submit-btn").click(function(){
         $("#login-modal").fadeOut();
-    })
+    });
 });
